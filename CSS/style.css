@@ -78,22 +78,28 @@ padding-top:30px
 
 }
 
-.block-smart{
-    width:1000px;
-    height:400px;
-    color:black;
-    border: 5px black solid;
-    border-radius: 5px;
-    padding:20px;
-    margin-top: 20px;
-    background-image: url('../img/SMART_GOAL.png');
-    background-position: center center;
-    object-fit: cover;
+.youtube {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    max-width:100%;
+    max-height:relative;
 }
 
 .comp-class{
     position:fixed;
-    top: 300px;
+    top: 30%;
     background-color: black;
     color: #fff;
     padding: 10px;
@@ -135,21 +141,9 @@ padding-top:30px
     border-radius: 15px;
 }
 
-.scratch{
-    position:fixed;
-    top: 300px;
-    right:0;
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    border-radius: 15px;
-    border: 2px white solid;
-    border-radius: 15px;
-}
-
 .MIT-APP-INVENTOR{
     position:fixed;
-    top: 350px;
+    top: 30%;
     right:0;
     background-color: black;
     color: #fff;
@@ -161,19 +155,7 @@ padding-top:30px
 
 .website-design{
     position:fixed;
-    top: 400px;
-    right:0;
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    border-radius: 15px;
-    border: 2px white solid;
-    border-radius: 15px;
-}
-
-.unity{
-    position:fixed;
-    top: 450px;
+    top: 40%;
     right:0;
     background-color: black;
     color: #fff;
@@ -185,7 +167,31 @@ padding-top:30px
 
 .processing{
     position:fixed;
-    top: 500px;
+    top: 50%;
+    right:0;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px white solid;
+    border-radius: 15px;
+}
+
+.scratch{
+    position:fixed;
+    top: 60%;
+    right:0;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px white solid;
+    border-radius: 15px;
+}
+
+.unity{
+    position:fixed;
+    top: 70%;
     right:0;
     background-color: black;
     color: #fff;
