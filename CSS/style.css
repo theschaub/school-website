@@ -99,7 +99,18 @@ img{
 
 .comp-class{
     position:fixed;
-    top: 30%;
+    top: 10%;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px white solid;
+    border-radius: 15px;
+}
+
+.gohome{
+    position:fixed;
+    top: 0%;
     background-color: black;
     color: #fff;
     padding: 10px;
@@ -143,7 +154,7 @@ img{
 
 .MIT-APP-INVENTOR{
     position:fixed;
-    top: 30%;
+    top: 0%;
     right:0;
     background-color: black;
     color: #fff;
@@ -155,7 +166,7 @@ img{
 
 .website-design{
     position:fixed;
-    top: 40%;
+    top: 10%;
     right:0;
     background-color: black;
     color: #fff;
@@ -166,6 +177,42 @@ img{
 }
 
 .processing{
+    position:fixed;
+    top: 20%;
+    right:0;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px white solid;
+    border-radius: 15px;
+}
+
+.tinkercad{
+    position:fixed;
+    top: 30%;
+    right:0;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px white solid;
+    border-radius: 15px;
+}
+
+.audacity{
+    position:fixed;
+    top: 40%;
+    right:0;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px white solid;
+    border-radius: 15px;
+}
+
+.blender{
     position:fixed;
     top: 50%;
     right:0;
@@ -189,9 +236,33 @@ img{
     border-radius: 15px;
 }
 
-.unity{
+.python{
     position:fixed;
     top: 70%;
+    right:0;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px white solid;
+    border-radius: 15px;
+}
+
+.unity{
+    position:fixed;
+    top: 80%;
+    right:0;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px white solid;
+    border-radius: 15px;
+}
+
+.csharp{
+    position:fixed;
+    top: 90%;
     right:0;
     background-color: black;
     color: #fff;
@@ -227,9 +298,17 @@ img{
     border: 5px white solid;
     border-radius: 5px;
     padding:20px;
+    margin-top: 20px;
     margin-left: 10%;
     margin-right: 10%;
     overflow: hidden;
+}
+
+.block-2 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 .block-3{
