@@ -172,7 +172,7 @@ img{
 
 .website-design{
     position:fixed;
-    top: 10%;
+    top: 9%;
     right:0;
     background-color: black;
     color: #fff;
@@ -185,7 +185,7 @@ img{
 
 .processing{
     position:fixed;
-    top: 20%;
+    top: 18%;
     right:0;
     background-color: black;
     color: #fff;
@@ -198,7 +198,7 @@ img{
 
 .tinkercad{
     position:fixed;
-    top: 30%;
+    top: 27%;
     right:0;
     background-color: black;
     color: #fff;
@@ -211,7 +211,20 @@ img{
 
 .audacity{
     position:fixed;
-    top: 40%;
+    top: 36%;
+    right:0;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px white solid;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.bandlab{
+    position:fixed;
+    top: 45%;
     right:0;
     background-color: black;
     color: #fff;
@@ -224,7 +237,7 @@ img{
 
 .blender{
     position:fixed;
-    top: 50%;
+    top: 54%;
     right:0;
     background-color: black;
     color: #fff;
@@ -237,7 +250,7 @@ img{
 
 .scratch{
     position:fixed;
-    top: 60%;
+    top: 63%;
     right:0;
     background-color: black;
     color: #fff;
@@ -250,7 +263,7 @@ img{
 
 .python{
     position:fixed;
-    top: 70%;
+    top: 72%;
     right:0;
     background-color: black;
     color: #fff;
@@ -263,7 +276,7 @@ img{
 
 .unity{
     position:fixed;
-    top: 80%;
+    top: 81%;
     right:0;
     background-color: black;
     color: #fff;
