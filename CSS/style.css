@@ -99,67 +99,75 @@ img{
 
 .comp-class{
     position:fixed;
-    top: 10%;
+    text-decoration: none;
+    top: 15%;
     background-color: black;
     color: #fff;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 8px;
+    border-radius: 18px;
     border: 2px white solid;
-    border-radius: 15px;
     font-size: 12px;
 }
 
 .gohome{
     position:fixed;
+    text-decoration: none;
+    top: 5%;
+    background-color: black;
+    color: #fff;
+    padding: 8px;
+    border-radius: 18px;
+    border: 2px white solid;
+    font-size: 12px;
+}
+
+.dropbtnprog {
+    position:fixed;
+    top: 5%;
+    right:0;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px white solid;
+    font-size: 12px;
+    cursor: pointer
+  }
+  
+  .dropdownprog {
+    position:sticky;
+    top: 5%;
+    display: inline-block;
+  }
+  
+  .dropdown-content-prog {
+    display: none;
+    position: fixed;
+    top: 5%;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    max-height: 90%;
+    overflow-y: auto;
+  }
+  
+  .dropdown-content-prog a {
+    background-color: black;
+    color:#fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content-prog a:hover {background-color:#555;}
+  .dropdownprog:hover .dropdown-content-prog {display: block;}
+  .dropdownprog:hover .dropbtnprog {background-color: #3e8e41;}
+
+/* .MIT-APP-INVENTOR{
+    position:fixed;
     top: 0%;
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    border-radius: 15px;
-    border: 2px white solid;
-    border-radius: 15px;
-    font-size: 12px;
-}
-
-.comp-class-9{
-    position:fixed;
-    top: 350px;
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    border-radius: 15px;
-    border: 2px white solid;
-    border-radius: 15px;
-    font-size: 12px;
-}
-
-.comp-class-10{
-    position:fixed;
-    top: 400px;
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    border-radius: 15px;
-    border: 2px white solid;
-    border-radius: 15px;
-    font-size: 12px;
-}
-
-.comp-class-11-12{
-    position:fixed;
-    top: 450px;
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    border-radius: 15px;
-    border: 2px white solid;
-    border-radius: 15px;
-    font-size: 12px;
-}
-
-.MIT-APP-INVENTOR{
-    position:fixed;
-    top: 0%;
     right:0;
     background-color: black;
     color: #fff;
@@ -168,137 +176,7 @@ img{
     border: 2px white solid;
     border-radius: 15px;
     font-size: 12px;
-}
-
-.website-design{
-    position:fixed;
-    top: 9%;
-    right:0;
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    border-radius: 15px;
-    border: 2px white solid;
-    border-radius: 15px;
-    font-size: 12px;
-}
-
-.processing{
-    position:fixed;
-    top: 18%;
-    right:0;
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    border-radius: 15px;
-    border: 2px white solid;
-    border-radius: 15px;
-    font-size: 12px;
-}
-
-.tinkercad{
-    position:fixed;
-    top: 27%;
-    right:0;
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    border-radius: 15px;
-    border: 2px white solid;
-    border-radius: 15px;
-    font-size: 12px;
-}
-
-.audacity{
-    position:fixed;
-    top: 36%;
-    right:0;
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    border-radius: 15px;
-    border: 2px white solid;
-    border-radius: 15px;
-    font-size: 12px;
-}
-
-.bandlab{
-    position:fixed;
-    top: 45%;
-    right:0;
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    border-radius: 15px;
-    border: 2px white solid;
-    border-radius: 15px;
-    font-size: 12px;
-}
-
-.blender{
-    position:fixed;
-    top: 54%;
-    right:0;
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    border-radius: 15px;
-    border: 2px white solid;
-    border-radius: 15px;
-    font-size: 12px;
-}
-
-.scratch{
-    position:fixed;
-    top: 63%;
-    right:0;
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    border-radius: 15px;
-    border: 2px white solid;
-    border-radius: 15px;
-    font-size: 12px;
-}
-
-.python{
-    position:fixed;
-    top: 72%;
-    right:0;
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    border-radius: 15px;
-    border: 2px white solid;
-    border-radius: 15px;
-    font-size: 12px;
-}
-
-.unity{
-    position:fixed;
-    top: 81%;
-    right:0;
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    border-radius: 15px;
-    border: 2px white solid;
-    border-radius: 15px;
-    font-size: 12px;
-}
-
-.csharp{
-    position:fixed;
-    top: 90%;
-    right:0;
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    border-radius: 15px;
-    border: 2px white solid;
-    border-radius: 15px;
-    font-size: 12px;
-}
+} */
 
 .block-1{
     background-color:black;
