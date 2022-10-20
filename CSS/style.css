@@ -84,12 +84,20 @@ padding-top:30px
     height: 0;
     padding-bottom: 56.25%;
 }
+
 .video {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.embedunity {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
 }
 
 img{
@@ -100,7 +108,7 @@ img{
 .comp-class{
     position:fixed;
     text-decoration: none;
-    top: 15%;
+    top: 90%;
     background-color: black;
     color: #fff;
     padding: 8px;
@@ -192,6 +200,17 @@ img{
     font-weight: 800;
     font-style: italic;
     text-decoration: underline;
+}
+
+.block-1-display{
+    background-color:black;
+    color:#fff;
+    border: 5px white solid;
+    border-radius: 5px;
+    padding:20px;
+    margin-top: 20px;
+    text-align: center;
+    overflow: hidden;
 }
 
 .block-2{
