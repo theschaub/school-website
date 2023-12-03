@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programming</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/54dc69b15d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="main-header">
         <div class="container">
-            <h1>Computer Programming</h1>
+            <h1>Computer Programming<i class="fa fa-bars" onclick="showMenu()"></i></h1>
         <div>
     </header>
 
     <nav id="navbar">
         <div class="container">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
             <a href="index.html">Home</a>
             <a href="computers.html">Computers</a>
             <a>Programming</a>
@@ -45,139 +47,170 @@
         <h2>Introduction to Computer Programming</h2>
     </div>
     <div class="container">
-        <div class="block-3">
-            <h1>Course Resources</h1>
-            <h3><a href="../files/Prog/course outline Computer Programming 11-12 2023 Barsby - Schaub.pdf">Course Outline</a></h3>
-            <h3>What is Computer Science</h3>
-            <p>
-                <div class="youtube">
-                    <iframe src="https://www.youtube.com/embed/-xFJM3QQ3TE?si=eLRT9aJz3xXpXXcy6"
-                        frameborder="0" allowfullscreen class="video"></iframe>
-                </div>
-            </p>
-        </div>
-        <div class="block-3">
-            <h1>Class Notes</h1>
-            <h3><a href="../files/Prog/CSharp-Intro1-6.pdf">Intro Lessons 1-6</a></h3>
-            <h3><a href="../files/Prog/CSharp-Intro7-12.pdf">Intro Lessons 7-12</a></h3>
-            <h3><a href="../files/Prog/CSharp-Intro13-17.pdf">Intro Lessons 13-17</a></h3>
-            <h3>Computer Programmers Needed!!!</h3>
-            <p>
-                <div class="youtube">
-                    <iframe src="https://www.youtube.com/embed/dU1xS07N-FA?si=j9iwhFkY_ypM4uWc"
-                        frameborder="0" allowfullscreen class="video"></iframe>
-                </div>
-            </p>
-        </div>
-        <div class="block-3">
-            <h1>Labs and Activities</h1>
-            <h3><a href="../files/Prog/Assignment 1 - Console IO, variables.pdf">Offer a Service Lab</a></h3>
-            <h3><a href="../files/Prog/Assignment 1.5 - IO Areas and Perimeters.pdf">Perimeter & Area (&Volume?)</a></h3>
-            <h3><a href="../files/Prog/Assignment 2  - Loops.pdf">Mathing with Loops</a></h3>
-            <h3><a href="../files/Prog/Assignment 3  - Loops Advaned.pdf">Harder Mathing with Loops</a></h3>
-            <h3><a href="../files/Prog/Assignment 4  - Arrays-Lists.pdf">Arrays & Lists User Driven</a></h3>
-            <h3><a href="../files/Prog/Assignment 5  - Mathy Arrays-Lists.pdf">Mathing with Arrays & Lists</a></h3>
-            <br>
-            <h1>Math Challenges</h1>
-            <h3><a href="https://projecteuler.net/archives">Project Euler</a></h3>
+        <div class="rows">
+            <div class="block-3">
+                <h1>Course Resources</h1>
+                <h3><a href="../files/Prog/course outline Computer Programming 11-12 2023 Barsby - Schaub.pdf">Course Outline</a></h3>
+                <h3>What is Computer Science</h3>
+                <p>
+                    <div class="youtube">
+                        <iframe src="https://www.youtube.com/embed/-xFJM3QQ3TE?si=eLRT9aJz3xXpXXcy6"
+                            frameborder="0" allowfullscreen class="video"></iframe>
+                    </div>
+                </p>
+            </div>
+            <div class="block-3">
+                <h1>Class Notes</h1>
+                <h3><a href="../files/Prog/CSharp-Intro1-6.pdf">Intro Lessons 1-6</a></h3>
+                <h3><a href="../files/Prog/CSharp-Intro7-12.pdf">Intro Lessons 7-12</a></h3>
+                <h3><a href="../files/Prog/CSharp-Intro13-17.pdf">Intro Lessons 13-17</a></h3>
+                <h3>Computer Programmers Needed!!!</h3>
+                <p>
+                    <div class="youtube">
+                        <iframe src="https://www.youtube.com/embed/dU1xS07N-FA?si=j9iwhFkY_ypM4uWc"
+                            frameborder="0" allowfullscreen class="video"></iframe>
+                    </div>
+                </p>
+            </div>
+            <div class="block-3">
+                <h1>Labs and Activities</h1>
+                <h3><a href="../files/Prog/Assignment 1 - Console IO, variables.pdf">Offer a Service Lab</a></h3>
+                <h3><a href="../files/Prog/Assignment 1.5 - IO Areas and Perimeters.pdf">Perimeter & Area (&Volume?)</a></h3>
+                <h3><a href="../files/Prog/Assignment 2  - Loops.pdf">Mathing with Loops</a></h3>
+                <h3><a href="../files/Prog/Assignment 3  - Loops Advaned.pdf">Harder Mathing with Loops</a></h3>
+                <h3><a href="../files/Prog/Assignment 4  - Arrays-Lists.pdf">Arrays & Lists User Driven</a></h3>
+                <h3><a href="../files/Prog/Assignment 5  - Mathy Arrays-Lists.pdf">Mathing with Arrays & Lists</a></h3>
+                <br>
+                <h1>Math Challenges</h1>
+                <h3><a href="https://projecteuler.net/archives">Project Euler</a></h3>
+            </div>
         </div>
     </div>
     <div class="section-title">
         <h2>Methods / Classes / Object-Oriented Programming</h2>
     </div>
     <div class="container">
-        <div class="block-3">
-            <h1>Class Notes</h1>
-            <h3><a href="../files/Prog/CSharp-Methods.pdf">Methods</a></h3>
-            <h3><a href="../files/Prog/CSharp - Intro OOP and Classes.pdf">Intro to Classes and OOP</a></h3>
-        </div>
-        <div class="block-3">
-            <h1>Labs and Activities</h1>
-            <h3><a href="../files/Prog/Assignment 8 - Sorting.pdf">Sorting</a></h3>
-            <h3><a href="../files/Prog/Assignment 9 - Counting Days.pdf">Counting Days</a></h3>
-        </div>
-        <div class="block-3">
-            <h1>Videos</h1>
-            <h3>What Most Schools Do Not Teach</h3>
-            <p>
-                <div class="youtube">
-                    <iframe src="https://www.youtube.com/embed/nKIu9yen5nc?si=wLHAjZvP9HcDMafY"
-                        frameborder="0" allowfullscreen class="video"></iframe>
-                </div>
-            </p>
-            <h3>Computer Science is Changing Everything</h3>
-            <p>
-                <div class="youtube">
-                    <iframe src="https://www.youtube.com/embed/xJqSu1IbcHg?si=nzt8FELk46xkbwQ4" frameborder="0" allowfullscreen class="video"></iframe>
-                </div>
-            </p>
+        <div class="rows">
+            <div class="block-3">
+                <h1>Class Notes</h1>
+                <h3><a href="../files/Prog/CSharp-Methods.pdf">Methods</a></h3>
+                <h3><a href="../files/Prog/CSharp - Intro OOP and Classes.pdf">Intro to Classes and OOP</a></h3>
+            </div>
+            <div class="block-3">
+                <h1>Labs and Activities</h1>
+                <h3><a href="../files/Prog/Assignment 8 - Sorting.pdf">Sorting</a></h3>
+                <h3><a href="../files/Prog/Assignment 9 - Counting Days.pdf">Counting Days</a></h3>
+            </div>
+            <div class="block-3">
+                <h1>Videos</h1>
+                <h3>What Most Schools Do Not Teach</h3>
+                <p>
+                    <div class="youtube">
+                        <iframe src="https://www.youtube.com/embed/nKIu9yen5nc?si=wLHAjZvP9HcDMafY"
+                            frameborder="0" allowfullscreen class="video"></iframe>
+                    </div>
+                </p>
+                <h3>Computer Science is Changing Everything</h3>
+                <p>
+                    <div class="youtube">
+                        <iframe src="https://www.youtube.com/embed/xJqSu1IbcHg?si=nzt8FELk46xkbwQ4" frameborder="0" allowfullscreen class="video"></iframe>
+                    </div>
+                </p>
+            </div>
         </div>
     </div>
     <div class="section-title">
         <h2>Introduction to WPF & XAML</h2>
     </div>
     <div class="container">
-        <div class="block-3">
-            <h1>Class Notes</h1>
-            <h3><a href="../files/Prog/CSharp_WPF.pdf">Introduction to WPF & XAML</a></h3>
-            <h3><a href="../files/Prog/WPF_Calculator.pdf">Build a Calculator</a></h3>
-        </div>
-        <div class="block-3">
-            <h1>Labs and Activities</h1>
-            <h3><a href="../files/Prog/Assignment 6 - Basic Game.pdf">Basic Game</a></h3>
-            <h3><a href="../files/Prog/Assignment 7 - Calculator.pdf">Calculator</a></h3>
-            
-        </div>
-        <div class="block-3">
-            <h1>Videos</h1>
-            <h3>Introduction to WPF</h3>
-            <p>
-                <div class="youtube">
-                    <iframe src="https://www.youtube.com/embed/ImH_LvRMISw?si=7SbgiDjfX5X43Q42"
-                        frameborder="0" allowfullscreen class="video"></iframe>
-                </div>
-            </p>
+        <div class="rows">
+            <div class="block-3">
+                <h1>Class Notes</h1>
+                <h3><a href="../files/Prog/CSharp_WPF.pdf">Introduction to WPF & XAML</a></h3>
+                <h3><a href="../files/Prog/WPF_Calculator.pdf">Build a Calculator</a></h3>
+            </div>
+            <div class="block-3">
+                <h1>Labs and Activities</h1>
+                <h3><a href="../files/Prog/Assignment 6 - Basic Game.pdf">Basic Game</a></h3>
+                <h3><a href="../files/Prog/Assignment 7 - Calculator.pdf">Calculator</a></h3>
+                
+            </div>
+            <div class="block-3">
+                <h1>Videos</h1>
+                <h3>Introduction to WPF</h3>
+                <p>
+                    <div class="youtube">
+                        <iframe src="https://www.youtube.com/embed/ImH_LvRMISw?si=7SbgiDjfX5X43Q42"
+                            frameborder="0" allowfullscreen class="video"></iframe>
+                    </div>
+                </p>
+            </div>
         </div>
     </div>
     <div class="container">
-        <div class="block-3">
-            <h1>Videos</h1>
-            <h3>Event Driven Code</h3>
-            <p>
-                <div class="youtube">
-                    <iframe src="https://www.youtube.com/embed/MZDt32x9_N0?si=Y8XV1nQvtm5S6S1U" frameborder="0" allowfullscreen class="video"></iframe>
-                </div>
-            </p>
-        </div>
-        <div class="block-3">
-            <h1>Videos</h1>
-            <h3>XAML</h3>
-            <p>
-                <div class="youtube">
-                    <iframe src="https://www.youtube.com/embed/UGVphzfuV1g?si=L_B9Oy-6sqNyCFBj" frameborder="0" allowfullscreen class="video"></iframe>
-                </div>
-            </p>
-        </div>
-        <div class="block-3">
-            <h1>Videos</h1>
-            <h3>Calculator</h3>
-            <p>
-                <div class="youtube">
-                    <iframe src="https://www.youtube.com/embed/7YWz44JANEY?si=8vKdUj1YYyhohsFI" frameborder="0" allowfullscreen class="video"></iframe>
-                </div>
-            </p>
+        <div class="rows">
+            <div class="block-3">
+                <h1>Videos</h1>
+                <h3>Event Driven Code</h3>
+                <p>
+                    <div class="youtube">
+                        <iframe src="https://www.youtube.com/embed/MZDt32x9_N0?si=Y8XV1nQvtm5S6S1U" frameborder="0" allowfullscreen class="video"></iframe>
+                    </div>
+                </p>
+            </div>
+            <div class="block-3">
+                <h1>Videos</h1>
+                <h3>XAML</h3>
+                <p>
+                    <div class="youtube">
+                        <iframe src="https://www.youtube.com/embed/UGVphzfuV1g?si=L_B9Oy-6sqNyCFBj" frameborder="0" allowfullscreen class="video"></iframe>
+                    </div>
+                </p>
+            </div>
+            <div class="block-3">
+                <h1>Videos</h1>
+                <h3>Calculator</h3>
+                <p>
+                    <div class="youtube">
+                        <iframe src="https://www.youtube.com/embed/7YWz44JANEY?si=8vKdUj1YYyhohsFI" frameborder="0" allowfullscreen class="video"></iframe>
+                    </div>
+                </p>
+            </div>
         </div>
     </div>
     <div class="section-title">
         <h2>Whats Next?</h2>
     </div>
     <div class="container">
-        <div class="block-1">
-            <h1>Exploring your Future in Computers</h1>
-            <p>
-                <h3><a href="../files/Prog/What Next.pdf">Exploring the Future Assignment</a></h3>
-            </p>
+        <div class="rows">
+            <div class="block-3">
+                <h1>Exploring your Future in Computers</h1>
+                <p>
+                    <h3><a href="../files/Prog/What Next.pdf">Exploring the Future Assignment</a></h3>
+                </p>
+            </div>
+            <div class="block-3">
+                <h1>The</h1>
+
+            </div>
+            <div class="block-3">
+                <h1>End</h1>
+
+            </div>
         </div>
     </div>
+
+     <!-- -------JavaScript for toggle menu------- -->
+<script>
+    var navbar = document.getElementById("navbar");
+
+    function showMenu(){
+        navbar.style.right = "0";
+    }
+
+    function hideMenu(){
+        navbar.style.right = "-200px";
+    }
+</script>
 </body>
 </html>

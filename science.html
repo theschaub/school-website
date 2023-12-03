@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Science</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/54dc69b15d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="main-header">
         <div class="container">
-            <h1>Science</h1>
+            <h1>Science<i class="fa fa-bars" onclick="showMenu()"></i></h1>
         <div>
     </header>
 
     <nav id="navbar">
         <div class="container">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
             <a href="index.html">Home</a>
             <a href="computers.html">Computers</a>
             <a href="programming.html">Programming</a>
@@ -41,5 +43,17 @@
             </p>
         </div>
     </div>
+         <!-- -------JavaScript for toggle menu------- -->
+<script>
+    var navbar = document.getElementById("navbar");
+
+    function showMenu(){
+        navbar.style.right = "0";
+    }
+
+    function hideMenu(){
+        navbar.style.right = "-200px";
+    }
+</script>
 </body>
 </html>
