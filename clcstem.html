@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLC STEM</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/54dc69b15d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>CLC STEM<i class="fa fa-bars" onclick="showMenu()"></i></h1>
+        <div>
+    </header>
+
+    <nav id="navbar">
+        <div class="container">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <a href="index.html">Home</a>
+            <a href="computers.html">Computers</a>
+            <a href="programming.html">Programming</a>
+            <a href="es.html">Earth Science</a>
+            <a href="geology.html">Geology</a>
+            <a href="physics.html">Physics</a>
+            <a href="math.html">Math</a>
+            <a href="science.html">Science</a>
+            <a>CLC-STEM</a>
+            <a href="weightlifting.html">Weightlifting</a>
+        </div> 
+    </nav>
+
+    <div class="container">
+        <div class="box-quote">
+            <h2>Somewhere, something incredible is waiting to be known.   ~ Carl Sagan</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="block-1">
+            <h1>CLC STEM Overview</h1>
+            <p>
+                The STEM stream of careers is a course for those who are considering post-secondary studies in the
+                sciences: physics, nursing, astronomy, biology, earth sciences, chemistry, mathematics or engineering.
+                The course focuses on the experiential and applied learnings that support students with an interest in
+                STEM to develop an integrated post-graduation plan that is connected to a capstone or culminating
+                project of interest. The course design teaches students how to effectively manage and plan their future
+                journey while exposing them to the rigors of a post-secondary science program via the development of
+                science related computer literacy, programming, data management, presentation and writing
+                skills. Students will leave the course with a post-secondary plan, the tools essential for success in post
+                secondary studies in STEM, and the confidence to execute the next steps on their journey.
+            </p>
+        </div>
+    </div>
+    <div class="section-title">
+        <h2>Introduction to CLC STEM</h2>
+    </div>
+    <div class="container">
+        <div class="rows">
+            <div class="block-3">
+                <h1>Course Resources</h1>
+                <h3><a href="../files/CLC/CLCSTEM 12-Course Outline-Schaub-2024.pdf">Course Outline</a></h3>
+            </div>
+            <div class="block-3">
+                <h1>Discussion Point Guidelines</h1>
+                <h3><a href="../files/CLC/DPQ Self Assesment Rubric.pdf">Example & Self Assessment</a></h3>
+                <h3><a href="https://www.citationmachine.net/apa">APA Citations</a></h3>
+            </div>
+            <div class="block-3">
+                <h1>Questions</h1>
+                <h3><a href="../files/CLC/DPQ-1-Late Work.pdf">Late Work</a></h3>
+            </div>
+        </div>
+    </div>
+
+         <!-- -------JavaScript for toggle menu------- -->
+<script>
+    var navbar = document.getElementById("navbar");
+
+    function showMenu(){
+        navbar.style.right = "0";
+    }
+
+    function hideMenu(){
+        navbar.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
